@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div class="container">
+       <form action="/api/productos" method="POST">
+           <label for="title">Titulo</label>
+           <input type="text" name="title"><br>
+           
+           <label for="price">Precio</label>
+           <input type="text" name="price"><br>
+           
+           <label for="thumbnail">Titulo</label>
+           <input type="text" name="thumbnail"><br>
+           <button type="submit">enviar</button>
+
+       </form>
+   </div>
+</body>
+</html>
+
+<style>
+    .container{
+        display:flex;
+  justify-content:center;
+  align-items:center;
+        margin: 30px ;
+        padding: 20px;
+        width: 300px;
+        background-color: blueviolet;
+        color:wheat
+        
+
+    }
+    input{
+        margin: 10px;
+    }
+
+  
+    
+</style>
